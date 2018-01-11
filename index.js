@@ -28,7 +28,7 @@ $(function () {
                box.off();
            }
            //人机
-        /*   if(ai){
+           if(ai){
                let pos = position();
                $('#'+pos.x+'_'+pos.y).addClass('white');
                bai[pos.x+'_'+pos.y] = true;
@@ -38,7 +38,7 @@ $(function () {
                    box.off();
                }
                return ;
-           }*/
+           }
        }else{
            $(this).addClass('white');
            bai[data.x+'_'+data.y] = true;
